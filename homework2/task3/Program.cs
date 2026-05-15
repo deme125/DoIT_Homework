@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.Write("chaweret tqveni asaki: ");
-            int age;
-            int.TryParse(Console.ReadLine(), out age);
+            byte age;
+            byte.TryParse(Console.ReadLine(), out age);
 
             if (age >= 0 && age <= 12)
             {

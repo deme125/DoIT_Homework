@@ -21,7 +21,7 @@
                 {
                     Console.Write(" ");
                 }
-                for (int k = 0; k < i+1; k++)
+                for (int k = 0; k < i; k++)
                 {
                     Console.Write("# ");
                 }

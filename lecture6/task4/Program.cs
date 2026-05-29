@@ -11,6 +11,7 @@
                 {
                     Console.Write($"{chars[i][j]} ");
                 }
+                Console.WriteLine();
             }
             Console.ReadLine();
         }

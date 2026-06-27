@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace task1
 {
-    public class Student : Person
+    public class Student : Person , IPrintable
     {
         
         private string email;
@@ -98,7 +98,12 @@ namespace task1
             }
         }
 
-        
+        public void Print(Student student)
+        {
+            Console.WriteLine(student.ToString);
+        }
+
+
 
     }
 

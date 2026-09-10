@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/arcitecture/">
+    <Project Path="Applictaion/Applictaion.csproj" />
+    <Project Path="Domain/Domain.csproj" />
+    <Project Path="Repository/Repository.csproj" />
+    <Project Path="UI/UI.csproj" />
+  </Folder>
+  <Project Path="adoNet/adoNet.csproj" />
+</Solution>
